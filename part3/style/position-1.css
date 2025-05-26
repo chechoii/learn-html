@@ -1,0 +1,65 @@
+.box01 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  /*margin-top: 100px;*/
+  /*position: relative
+  left: 100px;
+  top: 100px;*/
+  margin: 0 auto;
+}
+
+.box02 {
+  width: 200px;
+  height: 200px;
+  background-color: dodgerblue;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  background-color: hotpink;
+  position: relative;
+}
+
+.container > div {
+  width: 200px;
+  height: 200px;
+}
+
+.container .list01 {
+  background-color: green;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.container .list02 {
+  background-color: orange;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.container .list03 {
+  background-color: cadetblue;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.container .list04 {
+  background-color: aquamarine;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.container .list05 {
+  background-color: cornflowerblue;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  top: 50%;
+  margin-top: -100px;
+}

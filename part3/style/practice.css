@@ -1,0 +1,24 @@
+.num1 li {
+  color: blue;
+}
+
+.num1 li:last-child {
+  color: red;
+}
+
+.practice {
+  background-color: aliceblue;
+}
+
+.practice div:first-child {
+  background-color: yellow;
+  border: 1px solid blue;
+}
+
+.num2 li:nth-child(2) {
+  font-size: 20px;
+}
+
+footer span:hover {
+  color: aqua;
+}
