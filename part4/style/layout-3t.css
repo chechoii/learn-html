@@ -41,6 +41,15 @@ header {
   }
 }
 
+/*
+
+flex -> 자식요소를 가로 배치
+position -> 내 위치를 잡기 위해
+
+
+
+*/
+
 .container aside {
   width: 300px;
   height: 700px;
