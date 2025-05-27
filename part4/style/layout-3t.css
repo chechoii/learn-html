@@ -1,0 +1,56 @@
+header {
+  /*height: 100px;*/ /*자식인 .inner가 높이값 갖고있어서 필요없음*/
+  background-color: orange;
+
+  .inner {
+    width: 1000px;
+    height: 100px;
+    background-color: greenyellow;
+    margin: 0 auto; /*가운데 정렬*/
+  }
+}
+
+.visual {
+  height: 300px;
+  background-color: dodgerblue;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  /*display: flex;*/
+  position: relative;
+
+  .contents {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    margin-bottom: 10px;
+    > li {
+      width: 350px;
+      height: 200px;
+      background-color: hotpink;
+
+      &:nth-child(1),
+      &:nth-child(4),
+      &:nth-child(5) {
+        background-color: orange;
+      }
+    }
+  }
+}
+
+.container aside {
+  width: 300px;
+  height: 700px;
+  background-color: greenyellow;
+  position: absolute;
+  right: 0;
+  top: -100px;
+}
+
+footer {
+  height: 50px;
+  background-color: gray;
+}

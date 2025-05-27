@@ -1,0 +1,65 @@
+.container {
+  margin: 0 auto;
+}
+
+header {
+  background-color: orange;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > div {
+  background-color: yellowgreen;
+  width: 1000px;
+  height: 100px;
+}
+
+.visual {
+  background-color: dodgerblue;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+main .contents {
+  background-color: yellow;
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+main .contents > div {
+  background-color: hotpink;
+  width: 350px;
+  height: 200px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .contents > div:nth-child(odd) {
+  background-color: yellow;
+}
+
+main .contents > div:nth-child(even) {
+  background-color: hotpink;
+}
+
+footer {
+  background-color: burlywood;
+  width: 1000px;
+  height: 50px;
+  margin: 0 auto;
+}

@@ -1,0 +1,71 @@
+body {
+  font-size: 30px;
+  color: white;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  width: 1000px;
+  height: 100px;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+main .snb {
+  width: 200px;
+  height: 700px;
+  background-color: dodgerblue;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .contents {
+  width: 800px;
+  height: 700px;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+}
+
+.bottom > .div {
+  width: 330px;
+  height: 130px;
+  margin-right: 5px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom > .div:nth-child(3) {
+  margin-right: 0;
+}
+
+footer {
+  background-color: cadetblue;
+  margin-top: 20px;
+  width: 1000px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

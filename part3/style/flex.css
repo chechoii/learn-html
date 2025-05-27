@@ -20,17 +20,33 @@ body {
   /*justify-content: flex-end;*/
   /*justify-content: center;*/
   justify-content: space-between;
-  /*gap: 10px;*/ /*margin 과 다르게 마지막요소는 간격을 설정하지 않음음*/
+  gap: 10px; /*margin 과 다르게 마지막요소는 간격을 설정하지 않음음*/
   align-items: center;
-  align-content: space-between;
+  /*align-content: space-between;*/
   flex-wrap: wrap;
 
   > div {
-    width: 150px;
+    /*width: 150px;*/
+    /*min-width:;*/
     height: 150px;
     background-color: dodgerblue;
-    display: flex;
+    /*처음 크기를 얼마로 잡아줄까?(min-width와 동일)*/
+    flex-basis: 0;
+    /*얼마나 늘어날까?*/
+    flex-grow: 1;
+    /*얼마나 줄어들까?*/
+    flex-shrink: 0;
+    /*한번에*/
+    /*flex: 1 1 200px;*/
+    flex: 1;
+
+    /*display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
+    &:nth-child(2) {
+      /*flex-grow:2;*/
+      flex: 2;
+      order: -1;
+    }
   }
 }
